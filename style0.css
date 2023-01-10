@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 99vw;
+    background-color: var(--primary-color);
+    /* filter: invert(100%); */
+}
+
+
+
+.grey{
+    background-color: rgba(236, 228, 228, 0.938);
+    height: 70vh;
+    width: 80vw;
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    5px 5px 15px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+
+}
+
+    
+.slide{
+    background-image: url('ho1.jpg'); 
+    background-size: contain;
+    height: 60vh;
+    width: 631px;
+    position: absolute;
+    top: 18vh;
+    right: 9vw;
+    border-radius: 5px;
+    animation: change 9s infinite ease-in-out;
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    5px 5px 15px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+}
+
+@keyframes change{ 
+    10%{background-image: url('ho1.jpg');}
+    40%{background-image: url('ho2.jpeg');}
+    80%{background-image: url('ho3.jpg');} 
+    
+}
+
+.font{
+    height: 250px;
+    width: 600px;
+    border: none;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+
+}
+
+.write1{
+    color: var(--secondary-color);
+    Line-height:  1.1;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 0 0px;
+}
+
+.write2{
+    color: var(--secondary-color);
+    padding: 7px 0;
+    font-style: italic;
+}
+
+.box1{
+    color: var(--secondary-color);
+    height: 100px;
+    width: 250px;
+    background-color: rgb(218, 207, 207);
+    position: absolute;
+    border-top: 3px solid rgb(120, 120, 128);
+    border-radius: 2px;
+    top: 430px;
+    left: 70px;
+    padding: 40px 10px;
+    transition: 0.4s ease;
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+}
+
+.box1:hover{
+    top: 423px;
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    5px 5px 15px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+}
+
+.box2{
+    color: var(--secondary-color);
+    height: 100px;
+    width: 250px;
+    background-color:  rgb(218, 207, 207);
+    position: absolute;
+    border-top: 3px solid rgb(120, 120, 128);
+    border-radius: 2px; 
+    top: 430px;
+    left: 375px;
+    padding: 40px 10px;
+    transition: 0.4s ease;
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+}
+
+.box2:hover{
+    top: 423px;
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    5px 5px 15px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+}
+
+h4{
+    color: var(--secondary-color);
+    position: absolute;
+    font-weight: bold;
+    bottom: 10px;
+    left: 50px;
+}

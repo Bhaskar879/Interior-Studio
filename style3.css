@@ -1,0 +1,144 @@
+.gr{
+    background-color: rgb(199, 202, 233);
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    top: 490px;
+}
+.to{
+    color: var(--secondary-color);
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    left: 80px;
+    font-weight: bold;
+}
+.he{
+    color: var(--secondary-color);
+    position: absolute;
+    display: inline-block;
+    top: 66px;
+    left: 80px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.co{
+    /* background-color: rgb(199, 202, 233);  */
+    position: relative;
+    height: 70vh;
+    width: 90%;
+    top: 170px;
+    left: 80px;
+}
+.co1{
+    background-image: url('h9.jpg');
+    background-size: contain;
+    background-color: rgb(243, 243, 245);
+    position: absolute;
+    height: 33vh;
+    width: 49%;
+    top: 0px;
+    left: 0px;
+    transition: 0.4s ease;
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+    
+   
+}
+
+.co1:hover{
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    5px 5px 15px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+}
+.pi{
+    /* background-color: red; */
+    position: relative;
+    height: 33vh;
+    width: 58%;
+}
+.ri{
+    color: var(--secondary-color);
+    background-color: rgb(212, 214, 230); 
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    left: 400px;
+    height: 33vh;
+    width: 299px;
+    /* padding: 10px; */
+}
+span{
+    display: inline-block;
+    margin: 40px 20px 20px 20px;
+    font-size: 30px;
+}
+p9{
+    color: var(--secondary-color);
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.co2{
+    background-image: url('h8.jpg');
+    background-size: contain;
+    background-color: rgb(243, 243, 245);
+    position: absolute;
+    height: 33vh;
+    width: 49%;
+    top: 0px;
+    right: 0px;
+    transition: 0.4s ease;
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+    
+
+}
+
+.co2:hover{
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    5px 5px 15px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+}
+.co3{
+    background-image: url('h14.jpg');
+    background-size: contain;
+    background-color: rgb(243, 243, 245);
+    position: absolute;
+    height: 33vh;
+    width: 49%;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.4s ease;
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+    
+
+}
+
+.co3:hover{
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    5px 5px 15px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+}
+.co4{
+    background-image: url('h12.jpg');
+    background-size: contain;
+    background-color: rgb(243, 243, 245);
+    position: absolute;
+    height: 33vh;
+    width: 49%;
+    bottom: 0px;
+    right: 0px;
+    transition: 0.4s ease;
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+    
+
+}
+
+.co4:hover{
+    box-shadow: 5px 5px 5px  rgb(128, 124, 124),
+    5px 5px 15px  rgb(128, 124, 124),
+    -3px -3px 4px  rgb(216, 211, 211);
+}

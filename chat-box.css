@@ -1,0 +1,85 @@
+.box-001{
+    background-color: rgb(17, 9, 36);
+    height: 375px;
+    width: 250px;
+    margin: 0;
+    border-radius: 9px;
+    position: fixed;
+    z-index: 10;
+    right: 15px;
+    bottom: 60px;
+}
+
+.nav1{
+    background-color: rgb(80, 37, 238);
+    color: white;
+    
+
+    height: 25px;
+    padding: 14px 17px;
+    border-radius: 9px 9px 0 0;
+}
+
+.line{
+    float: left;
+    margin: 11px;
+}
+
+.line1{
+    background-color: aliceblue;
+    color: black;
+    height: 18px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 6px;
+}
+
+.line2{
+    background-color: aliceblue;
+    color: black;
+    height: 18px;
+    width: 155px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 6px;
+}
+
+.line3{
+    background-color: aliceblue;
+    color: black;
+    height: 18px;
+    width: 17px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 6px;
+}
+
+.chat{
+    height: 21px;
+    width: 155px;
+    margin: 0 17px;
+    padding: 0 5px;
+    border-radius: px;
+    position: absolute;
+    bottom: 9px;
+    left: 0px;
+}
+
+.send{
+    bottom: 9px;
+    position: absolute;
+    right: 17px;
+    height: 25px;
+    width: 42px;
+    border-radius: 7px;
+    border: 1px sold black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.send:hover{
+    background-color: aqua;
+    color: black;
+    
+}
